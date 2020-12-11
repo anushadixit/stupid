@@ -1,0 +1,96 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - query_location
+  - query_item
+  - query_person
+  - query_event
+  - faq_credit_system
+  - faq_bus_timings
+  - faq_ccc
+  - faq_major
+  - faq_minor
+  - faq_stationary
+  - faq_uwe
+  - faq_mess_timings
+  - faq_hostel_timings
+  - faq_our
+  - faq_medical_emergency_information
+  - faq_food_delivery
+
+entities:
+  - location
+
+actions:
+  - action_location
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_faq_credit_system:
+  - text: "SNU follows a credit system, such as that implemented in many university abroad. Each course you take and pass, you get credits for. All undergradutate programs need a minimum of 120 credits to pass, however depending on your branch , you may need more. For example the School of Engineering requires around 160 credits to get the degree. For more information , please refer to https://snu.edu.in/academics/curriculum-structure"
+
+  utter_faq_bus_timings:
+  - text: "tell the bus timings, i don't know"
+
+  utter_faq_ccc:
+  - text: "Every SNU undergraduate must complete a total of at least 42 credits from the University Wide Elective (UWE) and Core Common Curriculum (CCC) categories, with a minimum of 18 credits from each. For example, a student may complete 19 UWE credits and 23 CCC credits. Most cccs are of 1.5 credits. The CCC is designed to provide students a broad-based understanding of the world, its physical, biological and social systems, the development of human civilization and culture, and the historical development and modern formation of global society with a special emphasis on the history and development of India. The CCC consists of courses in 8 Topic Areas: 1. Indian History and Society (IHS) 2. World History and Society (WHS) 3. Culture and Communication (CAS) 4. Physical and Living Systems (PLS) 5. Cognition and Intelligence (CAI) 6. Technology and Society (TAS) 7. Environment and Ecology (EAE) 8. Reasoning and Analysis (RAA) Each student must earn at least 1.5 credits each from any six of the eight topic areas listed above. The course CCC704 Environmental Studies (topic area 7) is the only compulsory CCC."
+
+  utter_faq_major:
+  - text: "The Major is the primary area of study for the student and identifies the student’s degree. For example: A student with a Major in Computer Science and Engineering will receive the degree of B.Tech. in Computer Science and Engineering, A student with a Major in Sociology will receive the degree of B.A. (Research) in Sociology. A student with a Major in Mathematics will receive the degree of B.Sc. (Research) in Mathematics. You can only have one Major. If you want, You can apply for a change of Major towards the end of your second semester. The departments review the applications and the results are announced over the summer. Please note that there is no guarantee that you will necessarily be able to change to a new Major of your choice. It depends on the available seats and the qualifications of the other applicants for that Major."
+
+  utter_faq_minor:
+  - text: "A Minor is an optional qualification that can be earned by undergraduate students of SNU. It supplements the Major. Undergraduate students can choose a Minor subject to meeting the selection and credit requirements by the offering department/s. The Minor has to be an area of study that is different from the student’s Major. For example, a student with a declared Major in Computer Science and Engineering may opt to do a Minor in Physics. In this case, the student shall receive the degree of B.Tech. Computer Science and Engineering with Minor in Physics. A Minor is completed by crediting appropriate courses from the University Wide Elective category. Students typically do a Minor in order to pursue a strong secondary interest, or to increase employability, or as a first step towards higher studies in the Minor topic. A Minor just has to be distinct from the Major. For example, among Mathematics majors, the Minor in Economics is quite popular. In theory, doing a double minor is possible, however,  it is not easy and would require you to do several extra courses beyond the standard requirements. As of 2017, only one student has done a double Minor - a Physics major who completed minors in Mathematics and Economics."
+
+  utter_faq_stationary:
+  - text: "You can find general stationary like staplers and scissors at the photocopy booth located in D block. For notebooks, pens, and pencils, you can use Mini-Mart"
+
+  utter_faq_uwe:
+  - text: "Every SNU undergraduate must complete a total of at least 42 credits from the University Wide Elective (UWE) and Core Common Curriculum (CCC) categories, with a minimum of 18 credits from each. For example, a student may complete 19 UWE credits and 23 CCC credits. A UWE course for a student is any non-CCC course outside the student’s major. The UWE credits for a student cannot come from courses that are either (i) from a core course, or a mandatory requirement, of the student’s major or (ii) from a course chosen by the student as an elective requirement of the student’s major. A student may use the UWE category in any desired way, with no interference from the major department. For example, a student may use UWE to pursue a variety of interests in dance, media, communication, history and sociology. Alternately, a student may concentrate the UWE credits in one direction and use them to earn a minor. Examples: PHY103 Fundamentals of Physics I is not a compulsory course for majors in mathematics, nor is it offered by the Department of Mathematics. Hence PHY103 counts as a UWE for a major in mathematics. MAT140 Discrete Structures is not a compulsory course for majors in mathematics, but it is offered by the Department of Mathematics and is available to majors in mathematics as a major elective. Hence MAT140 does not count as a UWE for a major in mathematics. CCC704 Environmental Studies is a CCC course and hence cannot count as a UWE for any student."
+
+  utter_faq_mess_timings:
+  - text: "Breakfast time is from 9am to 11am , lunch is from 12pm to 3pm , snacks are from 4pm to 6pm , dinner is from 7:30pm to 10pm , and midnight mess is from 11pm to 2am. At all other times, the mess is closed."
+
+  utter_faq_hostel_timings:
+  - text: "First years must return to their hostels by 12am , however for all other students there is no curfew or limitations with regards to staying out of the hostels"
+
+  utter_faq_our:
+  - text: "The Opportunities for Undergraduate Research (OUR) is one of the pioneering and flagship program at Shiv Nadar University which has paved the way for undergraduate students to conduct original research with faculty. Undergraduate students are provided an unprecedented, well-rounded education by synthesizing broad, and strong interdisciplinary foundation with a solid training in their selected discipline - exemplifying the importance of research in the DNA of the University. The OUR program aims to give students hands-on experience in conducting research and doing independent work under faculty supervision. This progarm has paved the way for students to learn by discovery; have greater student-faculty interaction; expand the level of research activity on campus besides helping to identify and train potential candidates for the University’s graduate programs. Through the program, students are expected to develop foundational understanding of how research is conducted in their disciplines, develop a greater understanding of the information resources available and the way to utilize them as well as how to interpret research outcomes."
+  
+  utter_faq_medical_emergency_information:
+  - text: "Blue circle provides "
+
+  utter_faq_food_delivery:
+  - text: ""
+
+  
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
