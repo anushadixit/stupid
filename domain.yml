@@ -44,6 +44,7 @@ intents:
   - faq_directoradmissions
   - faq_ithead
   - faq_student_council
+  - faq_lib
 
 entities:
   - location
@@ -131,38 +132,46 @@ responses:
     - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
 
   utter_faq_ece_cr:
-    - text: "xyz is the cr of ece'22 xy223@snu.edu.in"
+    - text: "xyz is the cr of ECE'22 xy223@snu.edu.in"
 
   utter_faq_ir_cr:
-    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+    - text: "XYZ is the CR of IRGS'22, xy234@snu.edu.in"
 
   utter_faq_eee_cr:
-    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+    - text: "XYZ is the CR of EEE'22, xy234@snu.edu.in"
 
   utter_faq_mech_cr:
-    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+    - text: "XYZ is the CR of MECH'22, xy234@snu.edu.in"
 
   utter_faq_sociology_cr:
-    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+    - text: "XYZ is the CR of Sociology'22, xy234@snu.edu.in"
 
   utter_faq_dsa:
     - text: "Major General G Jaishankar (Retd.) is Dean Student Affairsg.jaishankar@snu.edu.in"
 
   utter_faq_vicechancellor:
     - text: "Dr. Rupamanjari Ghosh is the Vice-Chancellor of SNU as well as the Director, School of Natural Sciences. Block C, Room # 321, rupamanjari.ghosh@snu.edu.in"
+
   utter_faq_president:
     - text: "Col. Gopal Karunakaran (Retd.) is the President of Shiv Nadar University. gopal.karunakaran@snu.edu.in. "
+
   utter_faq_deanug:
     - text: "Dean Undergraduate Studies, HoD Mathematics, Director IIIMIT   amber.habib@snu.edu.in ; A block 109B"
+
   utter_faq_directorcdc:
     - text: "Ms. Anubha Bali is the Director of Career Development Center (CDC) at Shiv Nadar University. Email anubha.bali@snu.edi.in ; Phone. +91-120-7170100, Ext. 497"
+
   utter_faq_directoradmissions:
     - text: "Mr. Anil Kumar Nair is the Director of Admissions at Shiv Nadar University."
+
   utter_faq_ithead:
     - text: "Mr. Rajesh Dawar is the Head of Information Technology at Shiv Nadar University. You can contact the IT department between 9am to 5 am on library third floor. "
 
   utter_faq_student_council:
     - text: "student council position holders for 2019 are Arjun Soni (president), Balaji Vunnava (vice president), Shachi Shanbhag (cultural secretary) and Keval Sushruth (sports secretary). The senate will consist of 46 students across schools and will include students from undergraduate, graduate & Ph.D. programs. \n"
+
+  utter_faq_lib:
+    - text: "The library remains open from 9am to 12am but during exams it will stay open for 2 more hours. The study room in the library is open 27/7"
 
 session_config:
   session_expiration_time: 60

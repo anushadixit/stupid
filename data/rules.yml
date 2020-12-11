@@ -178,4 +178,9 @@ rules:
     - intent: faq_student_council
     - action: utter_student_council
 
+- rules: give faw lib answer
+    steps:
+    - intent: faq_lib
+    - action: utter_lib
+
 

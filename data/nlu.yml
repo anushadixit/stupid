@@ -325,5 +325,11 @@ nlu:
       - what is the student council?
       - who is the student council president?
 
+  - intent: faq_lib
+    examples: |
+      - what are the library timings?
+      - study room timings in the library?
+
+
 
   
