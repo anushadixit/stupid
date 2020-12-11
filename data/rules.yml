@@ -1,0 +1,78 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Give appropiate location
+  steps:
+  - intent: query_location
+  - action: action_location
+
+- rule: give the faq answer2
+  steps:
+  - intent: faq_credit_system
+  - action: utter_faq_credit_system
+
+- rule: give the faq answer3
+  steps:
+  - intent: faq_bus_timings
+  - action: utter_faq_bus_timings
+
+- rule: give the faq answer4
+  steps:
+  - intent: faq_ccc
+  - action: utter_faq_ccc
+
+- rule: give the faq answer5
+  steps:
+  - intent: faq_major
+  - action: utter_faq_major
+
+- rule: give the faq answer6
+  steps:
+  - intent: faq_minor
+  - action: utter_faq_minor
+
+- rule: give the faq answer7
+  steps:
+  - intent: faq_stationary
+  - action: utter_faq_stationary
+
+- rule: give the faq answer8
+  steps:
+  - intent: faq_uwe
+  - action: utter_faq_uwe
+
+- rule: give the faq answer9
+  steps:
+  - intent: faq_mess_timings
+  - action: utter_faq_mess_timings
+
+- rule: give the faq answer10
+  steps:
+  - intent: faq_hostel_timings
+  - action: utter_faq_hostel_timings
+
+- rule: give the faq answer11
+  steps:
+  - intent: faq_our
+  - action: utter_faq_our
+
+- rule: give the faq answer12
+  steps:
+  - intent: faq_medical_emergency_information
+  - action: utter_faq_medical_emergency_information
+
+- rule: give the faq answer13
+  steps:
+  - intent: faq_food_delivery
+  - action: utter_faq_food_delivery

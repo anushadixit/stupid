@@ -1,0 +1,213 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - shut up
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: query_location
+  examples: |
+    - where is [B block](location)?
+    - How can i get to [A block](location)?
+    - Where is [Academic Block](location) ? 
+    - Can you take me to [C block](location) ? 
+    - Take to where [D block](location) is 
+    - Where is [D block](location) located
+    - Where is the [lake](location) on campus ? 
+    - Where can i find the [Student Activitiy Center](location)
+    - Tell me where the [Gym](location) is 
+    - Where is the [mess](location) ?
+    - Take me to the [SAC](location)
+    - Where is [DH](location) ?
+    - Where is the [Dining hall](location)?
+    - Where is [DH1](location)?
+    - Where is [DH2](location)?
+    - Where is [DH3](location)?
+    - Where is [Dining Hall 1](location)?
+    - Where is [Dining Hall 2](location)?
+    - Where is [Dining Hall 3](location)?
+
+- intent: faq_credit_system
+  examples: |
+    - How many credits do i need to gradutate?
+    - What is the credit system ?
+    - What does it mean to have credits ?
+
+- intent: faq_bus_timings
+  examples: |
+    - Does SNU have some shuttle servcie?
+    - What is the timing of the busses ?
+    - Where does SNU bus go?
+    - Tell me more about the bus service
+    - Tell me more about the shuttle service
+    - Who should i contact in case i have a query regarding tranport?
+    - what are the bus timings?
+
+- intent: faq_ccc
+  examples: |
+    - What is a ccc?
+    - How many credits does a ccc give?
+    - what is full from of ccc ?
+    - what does ccc mean ?
+    - Do i have to take a ccc every semester ?
+
+- intent: faq_major
+  examples: |
+    - What is a major?
+    - What does a student's major mean?
+    - What all majors are there?
+
+- intent: faq_minor
+  examples: |
+    - What is a minor?
+    - How can i apply for a minor ?
+    - what minors can i do?
+    - What are minor courses ?
+
+- intent: faq_stationary
+  examples: |
+    - Where can i get stationary on campus?
+    - Where can i get pens and pencils?
+    - Where do i find copies and books to buy ?
+    - Where can i get general supplies like erasers and pens
+    - Do you know where to find stationary?
+
+- intent: faq_uwe
+  examples: |
+    - What is a uwe?
+    - is a uwe required to get my degree?
+    - what is full form of uwe?
+    - can i get a uwe?
+    - are there any requirements to get uwe?
+
+- intent: faq_mess_timings
+  examples: |
+    - When is breakfast
+    - When is lunch
+    - When is dinner
+    - When is snacks
+    - When will the mess be open?
+    - what are the mess timings?
+    - Is the mess open at midnight?
+    - how late is the mess open ?
+    - when does the mess close?
+
+- intent: faq_hostel_timings
+  examples: |
+    - Is there a curfew on campus?
+    - Are there any restrictions to being outside the hostel ? 
+    - How long can we be outside the hostel?
+    - Can i be outside the hostel for the whole night ?
+    - When will the curfew be lifted on campus ?
+
+- intent: faq_our
+  examples: |
+    - What is an our?
+    - how can i apply for an OUR?
+    - what is the full form of an OUR?
+
+- intent: faq_medical_emergency_information
+  examples: |
+    - Where do i go if i am injured ?
+    - My friend is hurt, what do i do?
+    - I am feeling very sick, where can i go?
+    - is there any medical services on campus 
+
+- intent: faq_food_delivery
+  examples: |
+    - Are there any joints the deliver on campus?
+    - Which companies deliver food to campus directly?
+    - What can i get through delivery ?
+    - Where can i order food from ?
+
+
+
+  
