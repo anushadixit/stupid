@@ -17,6 +17,7 @@ nlu:
     - goodevening
     - good afternoon
     - yo
+    -namaste
 
 - intent: goodbye
   examples: |
@@ -31,6 +32,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    -ciao
 
 - intent: affirm
   examples: |
@@ -92,6 +94,8 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - what are you?
+
 
 - intent: query_location
   examples: |
@@ -114,6 +118,7 @@ nlu:
     - Where is [Dining Hall 1](location)?
     - Where is [Dining Hall 2](location)?
     - Where is [Dining Hall 3](location)?
+    - Where is [ISC](location)?
 
 - intent: faq_credit_system
   examples: |
@@ -208,6 +213,117 @@ nlu:
     - What can i get through delivery ?
     - Where can i order food from ?
 
+- intent: faq_pooja
+  examples: |
+    - where is pooja malik?
+    - where is pooja malik's office?
+    - how can i contact pooja malik ma'am?
+
+- intent: faq_rajeev
+  examples: |
+    - where is rajeev kumar?
+    - where is rajeev kumar's office?
+    - how can i contact rajeev kumar sir
+
+- intent: faq_jyoti
+  examples: |
+    - where is jyoti sir?
+    - where is jyoti sharma sir's office?
+    - how can i contact jyoti sharma sir?
+
+- intent: faq_snehasis
+  examples: |
+    - where is snehasis mujkherji?
+    - where is snehasis mujhekrji's office?
+    - how can i contact snehasis mujherji sir?
+
+- intent: faq_divya
+  examples: |
+    - where is divya lohani?
+    - where is divya lohani's office?
+    - how can i contact divya lohani ma'am?
+
+- intent: faq_santosh
+  examples: |
+    - where is santosh singh?
+    - where is santosh singh's office?
+    - how can i contact santosh singh sir?
+
+- intent: faq_cse_cr
+  examples: |
+    - Who is the CR of CSE'22?
+
+- intent: faq_ece_cr
+  examples: |
+    - Who is the CR of ECE'22?
+
+
+- intent: faq_ir_cr
+  examples: |
+    - Who is the CR of IR'22?
+
+- intent: faq_eee_cr
+  examples: |
+    - Who is the CR of EEE'22?
+
+  - intent: faq_mech_cr
+    examples: |
+        - Who is the CR of MECH'22?
+
+  - intent: faq_sociology_cr
+    examples: |
+    - Who is the CR of SOCIOLOGY'22?
+
+  - intent: faq_dsa
+    examples: |
+      - where is dsa office?
+      - who is the dean of student affairs?
+      - how can i contact jaishankar sir?
+
+  - intent: faq_vicechancellor
+    examples: |
+      - where is vice chancellor's office?
+      - who is the vice chancellor?
+      - how can i contact rupamanjari ma'am?
+
+  - intent: faq_president
+    examples: |
+      - where is president's office?
+      - who is the president?
+      - how can i contact gopal karunakaran sir?
+
+
+  - intent: faq_deanug
+    examples: |
+      - where is dean ug's office?
+      - who is the dean of ug?
+      - how can i contact amber habib sir
+
+  - intent: faq_directorcdc
+    examples: |
+      - where is cdc director's office?
+      - who is the cdc director?
+      - how can i contact anubha bali ma'am?
+
+  - intent: faq_directoradmissions
+    examples: |
+      - where is admission director's office?
+      - who is the admissions director?
+      - how can i contact anil kumar sir?
+
+  - intent: faq_ithead
+    examples: |
+      - where is it head's office?
+      - who is the it head?
+      - how can i contact rajesh dawar sir?
+      - where is the IT department?
+      - IT department timings
+
+  - intent: faq_student_council
+    examples: |
+      - who are the student council position holders?
+      - what is the student council?
+      - who is the student council president?
 
 
   

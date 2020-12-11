@@ -76,3 +76,106 @@ rules:
   steps:
   - intent: faq_food_delivery
   - action: utter_faq_food_delivery
+
+- rule: give faq answer14
+  steps:
+  - intent: faq_pooja
+  - action: action_pooja
+
+- rule: Give faq answer15
+  steps:
+  - intent: faq_rajiv
+  - action: utter_rajiv
+
+- rule: Give faq answer16
+  steps:
+  - intent: faq_jyoti
+  - action: utter_jyoti
+
+
+- rule: Give faq answer17
+  steps:
+  - intent: faq_snehasis
+  - action: utter_snehasis
+
+- rule: Give faq answer18
+  steps:
+  - intent: faq_divya
+  - action: utter_divya
+
+- rule: Give faq answer19
+  steps:
+  - intent: faq_santosh
+  - action: utter_santosh
+
+- rule: Give faq answer20
+  steps:
+  - intent: faq_cse_cr
+  - action: utter_cse_cr
+
+- rule: Give faq answer21
+  steps:
+  - intent: faq_ece_cr
+  - action: utter_ece_cr
+
+- rule: Give faq answer22
+  steps:
+  - intent: faq_ir_cr
+  - action: utter_ir_cr
+
+- rule: Give faq answer23
+  steps:
+  - intent: faq_eee_cr
+  - action: utter_ee_cr
+
+- rule: Give faq answer24
+  steps:
+  - intent: faq_mech_cr
+  - action: utter_mech_cr
+
+- rule: Give faq answer25
+  steps:
+  - intent: faq_sociology_cr
+  - action: utter_sociology_cr
+
+- rule: Give faq answer26
+  steps:
+  - intent: faq_dsa
+  - action: utter_dsa
+
+- rule: Give faq answer27
+  steps:
+  - intent: faq_vicechancellor
+  - action: utter_vicechancello
+
+- rule: Give faq answer28
+  steps:
+  - intent: faq_president
+  - action: utter_president
+
+- rule: Give faq answer29
+  steps:
+  - intent: faq_deanug
+  - action: utter_deanug
+
+- rule: Give faq answer30
+  steps:
+  - intent: faq_directorcdc
+  - action: utter_directorcdc
+
+- rule: Give faq answer31
+  steps:
+  - intent: faq_directoradmissions
+  - action: utter_directoradmissions
+
+- rule: Give faq answer32
+  steps:
+  - intent: faq_ithead
+  - action: utter_ithead
+
+- rules: answer for student council
+    steps:
+    - intent: faq_student_council
+    - action: utter_student_council
+
+

@@ -24,12 +24,34 @@ intents:
   - faq_our
   - faq_medical_emergency_information
   - faq_food_delivery
+  - faq_pooja
+  - faq_rajiv
+  - faq_jyoti
+  - faq_snehasis
+  - faq_divya
+  - faq_santosh
+  - faq_cse_cr
+  - faq_ece_cr
+  - faq_ir_cr
+  - faq_eee_cr
+  - faq_mech_cr
+  - faq_sociolody_cr
+  - faq_dsa
+  - faq_vicechancellor
+  - faq_president
+  - faq_deanug
+  - faq_directorcdc
+  - faq_directoradmissions
+  - faq_ithead
+  - faq_student_council
 
 entities:
   - location
+  - professor
 
 actions:
   - action_location
+  - action_professor
 
 responses:
   utter_greet:
@@ -49,7 +71,7 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am Snuva, your guide to survive in SNU."
 
   utter_faq_credit_system:
   - text: "SNU follows a credit system, such as that implemented in many university abroad. Each course you take and pass, you get credits for. All undergradutate programs need a minimum of 120 credits to pass, however depending on your branch , you may need more. For example the School of Engineering requires around 160 credits to get the degree. For more information , please refer to https://snu.edu.in/academics/curriculum-structure"
@@ -76,7 +98,7 @@ responses:
   - text: "Breakfast time is from 9am to 11am , lunch is from 12pm to 3pm , snacks are from 4pm to 6pm , dinner is from 7:30pm to 10pm , and midnight mess is from 11pm to 2am. At all other times, the mess is closed."
 
   utter_faq_hostel_timings:
-  - text: "First years must return to their hostels by 12am , however for all other students there is no curfew or limitations with regards to staying out of the hostels"
+  - text: "First years must return to their hostels before midnight , however for all other students there is no curfew or limitations with regards to staying out of the hostels"
 
   utter_faq_our:
   - text: "The Opportunities for Undergraduate Research (OUR) is one of the pioneering and flagship program at Shiv Nadar University which has paved the way for undergraduate students to conduct original research with faculty. Undergraduate students are provided an unprecedented, well-rounded education by synthesizing broad, and strong interdisciplinary foundation with a solid training in their selected discipline - exemplifying the importance of research in the DNA of the University. The OUR program aims to give students hands-on experience in conducting research and doing independent work under faculty supervision. This progarm has paved the way for students to learn by discovery; have greater student-faculty interaction; expand the level of research activity on campus besides helping to identify and train potential candidates for the University’s graduate programs. Through the program, students are expected to develop foundational understanding of how research is conducted in their disciplines, develop a greater understanding of the information resources available and the way to utilize them as well as how to interpret research outcomes."
@@ -85,11 +107,62 @@ responses:
   - text: "Blue circle provides "
 
   utter_faq_food_delivery:
-  - text: ""
+  - text: "You can order from the local dhabas: Adarsh(+91 9350695545) and Mahesh(+91 9971680086 or 9654920086), if you want pizza call Deveggie. You can also check out other places on zomato"
 
-  
+  utter_faq_pooja:
+    - text: "Assistant Professor, Department of Computer Science and Engineering https://cse.snu.edu.in/people/faculty/pooja-malik"
 
+  utter_faq_rajiv:
+    - text: "Assistant Professor, Department of Computer Science and Engineering https://cse.snu.edu.in/people/faculty/rajeev-singh"
 
+  utter_faq_jyoti:
+    - text: "Professor & Head of Center for Environmental Sciences & Engineering (CESE) https://cese.snu.edu.in/people/faculty/jyoti-sharma"
+
+  utter_faq_snehasis:
+    - text: "Assistant Professor, Department of Computer Science and Engineering https://cse.snu.edu.in/people/faculty/snehasis_mukherjee"
+
+  utter_faq_divya:
+    - text: "Assistant Professor, Department of Computer Science and Engineering https://cse.snu.edu.in/people/faculty/divya-lohani"
+
+   utter_faq_santosh:
+    - text: "Assistant Professor, Department of Mathematics https://math.snu.edu.in/people/faculty/santosh-singh"
+
+  utter_faq_cse_cr:
+    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+
+  utter_faq_ece_cr:
+    - text: "xyz is the cr of ece'22 xy223@snu.edu.in"
+
+  utter_faq_ir_cr:
+    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+
+  utter_faq_eee_cr:
+    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+
+  utter_faq_mech_cr:
+    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+
+  utter_faq_sociology_cr:
+    - text: "XYZ is the CR of CSE'22, xy234@snu.edu.in"
+
+  utter_faq_dsa:
+    - text: "Major General G Jaishankar (Retd.) is Dean Student Affairsg.jaishankar@snu.edu.in"
+
+  utter_faq_vicechancellor:
+    - text: "Dr. Rupamanjari Ghosh is the Vice-Chancellor of SNU as well as the Director, School of Natural Sciences. Block C, Room # 321, rupamanjari.ghosh@snu.edu.in"
+  utter_faq_president:
+    - text: "Col. Gopal Karunakaran (Retd.) is the President of Shiv Nadar University. gopal.karunakaran@snu.edu.in. "
+  utter_faq_deanug:
+    - text: "Dean Undergraduate Studies, HoD Mathematics, Director IIIMIT   amber.habib@snu.edu.in ; A block 109B"
+  utter_faq_directorcdc:
+    - text: "Ms. Anubha Bali is the Director of Career Development Center (CDC) at Shiv Nadar University. Email anubha.bali@snu.edi.in ; Phone. +91-120-7170100, Ext. 497"
+  utter_faq_directoradmissions:
+    - text: "Mr. Anil Kumar Nair is the Director of Admissions at Shiv Nadar University."
+  utter_faq_ithead:
+    - text: "Mr. Rajesh Dawar is the Head of Information Technology at Shiv Nadar University. You can contact the IT department between 9am to 5 am on library third floor. "
+
+  utter_faq_student_council:
+    - text: "student council position holders for 2019 are Arjun Soni (president), Balaji Vunnava (vice president), Shachi Shanbhag (cultural secretary) and Keval Sushruth (sports secretary). The senate will consist of 46 students across schools and will include students from undergraduate, graduate & Ph.D. programs. \n"
 
 session_config:
   session_expiration_time: 60

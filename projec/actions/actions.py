@@ -29,23 +29,33 @@ class ActionLocation(Action):
             val = entitiy['value'].lower().replace("-" , " ")
             
             if(val == "lake"):
-                output += "https://www.google.com/maps/place/SNU+Lake/@28.525674,77.5738558,17z/data=!4m8!1m2!2m1!1sshiv+nadar+university,+lake!3m4!1s0x0:0x96c4e051b8e0fe5d!8m2!3d28.5252391!4d77.5778029\n"
+                output += "https://goo.gl/maps/KY7NjK9FVkbw14yG9\n"
             if(val == "a-block" or val=="a block"):
-                output += "https://www.google.com/maps/place/Block+A/@28.5271035,77.5764632,19z/data=!4m13!1m7!3m6!1s0x390c94dbba7e890b:0xd57d847587c2c1e4!2sGreater+Noida,+Uttar+Pradesh+203207!3b1!8m2!3d28.527105!4d77.5770053!3m4!1s0x390c94dbb996cad7:0xcf41dec069c94390!8m2!3d28.5268793!4d77.5771049\n"
+                output += "https://goo.gl/maps/swM6BEicCe6GT2oAA\n"
             if(val == "b-block" or val=="b block"):
-                output += "https://www.google.com/maps/place/Block+B/@28.526578,77.5760931,19z/data=!4m13!1m7!3m6!1s0x390c94dbba7e890b:0xd57d847587c2c1e4!2sGreater+Noida,+Uttar+Pradesh+203207!3b1!8m2!3d28.527105!4d77.5770053!3m4!1s0x390c94dbb547af09:0xaf25bf592e0dc2ba!8m2!3d28.5265965!4d77.5763243\n"
+                output += "https://goo.gl/maps/9quNFYr2gC9X7JeZA\n"
             if(val == "c-block" or val=="c block"):
-                output += "https://www.google.com/maps/place/28%C2%B031'34.0%22N+77%C2%B034'32.2%22E/@28.5257932,77.5754467,19z/data=!4m13!1m7!3m6!1s0x390c94dbba7e890b:0xd57d847587c2c1e4!2sGreater+Noida,+Uttar+Pradesh+203207!3b1!8m2!3d28.527105!4d77.5770053!3m4!1s0x0:0x0!8m2!3d28.5260851!4d77.5757235\n"
+                output += "https://goo.gl/maps/bvbbZb1tNGQw2hyF6\n"
             if(val == "d-block" or val=="d block" or val=="academic block"):
-                output += "https://www.google.com/maps/place/28%C2%B031'31.5%22N+77%C2%B034'31.0%22E/@28.525402,77.5754467,19z/data=!4m13!1m7!3m6!1s0x390c94dbba7e890b:0xd57d847587c2c1e4!2sGreater+Noida,+Uttar+Pradesh+203207!3b1!8m2!3d28.527105!4d77.5770053!3m4!1s0x0:0x0!8m2!3d28.5253548!4d77.5751734\n"
+                output += "https://goo.gl/maps/7oFDqrL79JjYg9fg8\n"
             if(val == "student activity center" or val == "sac" or val == "gym"):
-                output += "https://www.google.com/maps/place/SNU+Indoor+Sports+Complex/@28.5215387,77.5708196,18.04z/data=!4m13!1m7!3m6!1s0x390c94dbba7e890b:0xd57d847587c2c1e4!2sGreater+Noida,+Uttar+Pradesh+203207!3b1!8m2!3d28.527105!4d77.5770053!3m4!1s0x390c94d7a94b99e3:0x43336882518f9b3c!8m2!3d28.5213677!4d77.5709693\n"
+                output += "https://goo.gl/maps/YYkpfdFaNR78kaok8\n"
+            if (val == "towers" or val == "faculty housing" or val == "t2" or val=="t9" or val=="t10" or val == "t1"  or val == "t 2" or val=="t 9" or val=="t 10" or val == "t 1"):
+                output += "https://goo.gl/maps/V53MkSN8XVCGm4Dg9\n"
+            if (val == "r-block" or val== "research block"):
+                output += "https://goo.gl/maps/84XgydELLohuukCT9"
+            if (val == "management block"):
+                output += "https://goo.gl/maps/uaAGGapJSKsfPoKa8"
+            if (val == "biodiversity park" or val == "cactus park" or val=="bio-diversity park"):
+                output += "https://goo.gl/maps/iS8Lejwzp3iUfQkL9\n"
+            if (val == "library"):
+                output += "https://goo.gl/maps/WazwEBPEEjCVuh219\n"
             if(val == ""):
                 output += "\n"
             
         output += "Please open this link in google maps , then press navigate to reach your destination \n"
 
-        dispatcher.utter_message(text=output)
+        dispatcher.utter_message(text = output)
 
         return []
 
